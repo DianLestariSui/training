@@ -1,6 +1,6 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/BetterCodeHubTraining/training-assignments-simple)](https://bettercodehub.com)
 
-Assignments for Java Quality Software Developer training with Better Code Hub
+Assignments for Java Quality Software Developer (QSD) training with Better Code Hub (BCH)
 ==========
 This repository is part of a set of 3 training repositories (simple, medium and advanced) that are used in the [QSD](https://www.sig.eu/lp/qsd/) training program: https://github.com/BetterCodeHubTraining/training-assignments-simple, https://github.com/BetterCodeHubTraining/training-assignments-medium, https://github.com/BetterCodeHubTraining/training-assignments-advanced. If you want to use this code in a training yourself please contact us at <bettercodehub@sig.eu>.
 
@@ -8,7 +8,7 @@ About The Assignment Code
 -----------
 There is a `pom.xml` file in the root of this repository. This allows compiling the Java source files and running the unit tests using [Maven](https://maven.apache.org) by executing `mvn test`.
 
-Usage when Training for Quality Software Developer
+Usage when Training for QSD with BCH
 -----------
 
 * Sign in to GitHub (create an account if neccesary)

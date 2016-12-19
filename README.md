@@ -31,7 +31,7 @@ Use Better Code Hub to find refactoring candidates
 About Building Maintainable Software
 -----------
 
-This assigment based (pruned) on the example code that accompanies _Building Maintainable Software: Ten Guidelines for Future-Proof Code_ by Joost Visser.
+This assigment code is based (we pruned the original) on the example code that accompanies _Building Maintainable Software: Ten Guidelines for Future-Proof Code_ by Joost Visser.
 
 There are currently two editions of _Building Maintainable Software_:
 - The Java edition (ISBN print: 978-1-4919-5352-5, ISBN eBook: 978-1-4919-5348-8), available [at the O'Reilly webshop](http://shop.oreilly.com/product/0636920049159.do) and [at Amazon](http://www.amazon.com/Building-Maintainable-Software-Java-Edition-ebook/dp/B01B6WS86I).

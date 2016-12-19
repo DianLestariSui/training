@@ -8,7 +8,7 @@ About The Assignment Code
 -----------
 There is a `pom.xml` file in the root of this repository. This allows compiling the Java source files and running the unit tests using [Maven](https://maven.apache.org) by executing `mvn test`.
 
-Usage when Training for QSD with BCH
+Usage when Training for QSD with Better Code Hub
 -----------
 
 * Sign in to GitHub (create an account if neccesary)
@@ -16,7 +16,7 @@ Usage when Training for QSD with BCH
 * Clone the project on your development machine (git clone https://github.com/YourAccountNameHere/training-assignments-simple.git)
 * Open the project in your favorite Java IDE.
 
-Use BetterCodeHub.com to find refactoring candidates
+Use Better Code Hub to find refactoring candidates
 -----------
 
 * Go to [BetterCodeHub.com](https://bettercodehub.com) and log in [FREE] with your GitHub account.

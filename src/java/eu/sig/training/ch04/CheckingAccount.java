@@ -13,8 +13,9 @@ public class CheckingAccount {
         // 2. Assuming result is 9-digit bank account number, validate 11-test:
         int sum = 0;
         for (int i = 0; i < counterAccount.length(); i++) {
-            sum = sum + (9-i) * Character.getNumericValue(
-                counterAccount.charAt(i));
+            char character = counterAccount.charAt(i);
+            int characterValue = Character.getNumericValue(character);
+            sum = sum + (9 - i) * characterValue;
         }
         if (sum % 11 == 0) {
             // 3. Look up counter account and make transfer object:

@@ -20,7 +20,7 @@ Use BetterCodeHub.com to find refactoring candidates
 -----------
 
 * Go to [BetterCodeHub.com](https://bettercodehub.com) and log in [FREE] with your GitHub account.
-* Run and analyze the Training repository with BetterCodeHub.
+* Run and analyze the training-assignments-simple repository with BetterCodeHub.
 * Refactor the code to comply with the first four guidelines.
 * Commit your local changes (git add *, git commit -m "your comment here").
 * Push the changes to your Github repository (git push).

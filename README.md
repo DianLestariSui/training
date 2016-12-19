@@ -35,7 +35,9 @@ This assigment based (pruned) on the example code that accompanies _Building Mai
 
 There are currently two editions of _Building Maintainable Software_:
 - The Java edition (ISBN print: 978-1-4919-5352-5, ISBN eBook: 978-1-4919-5348-8), available [at the O'Reilly webshop](http://shop.oreilly.com/product/0636920049159.do) and [at Amazon](http://www.amazon.com/Building-Maintainable-Software-Java-Edition-ebook/dp/B01B6WS86I).
-- The C# edition, currently submitted as a manuscript to O'Reilly Media.
+- The C# edition 9 ISBN print: , available [at the O'Reilly webshop](http://shop.oreilly.com/product/0636920049555.do) and [at Amazon]
+(https://www.amazon.com/Building-Maintainable-Software-Guidelines-Future-Proof-ebook/dp/B01GSRN582)
+
 
 [Training videos](http://oreil.ly/1OVw1PM) are also available via O'Reilly Media.
 

@@ -1,7 +1,6 @@
-package eu.sig.training.ch05.boardpanel.v2;
+package eu.sig.training.ch05.boardpanel;
 
 import java.awt.Graphics;
-import java.awt.Point;
 import java.util.List;
 
 public class BoardPanel {
@@ -15,16 +14,19 @@ public class BoardPanel {
      *            The square to render.
      * @param g
      *            The graphics context to draw on.
-     * @param r
-     *            The position and dimension for rendering the square.
+     * @param x
+     *            The x position to start drawing.
+     * @param y
+     *            The y position to start drawing.
+     * @param w
+     *            The width of this square (in pixels).
+     * @param h
+     *            The height of this square (in pixels).
      */
-    private void render(Square square, Graphics g, Rectangle r) {
-        Point position = r.getPosition();
-        square.getSprite().draw(g, position.x, position.y, r.getWidth(),
-            r.getHeight());
+    private void render(Square square, Graphics g, int x, int y, int w, int h) {
+        square.getSprite().draw(g, x, y, w, h);
         for (Unit unit : square.getOccupants()) {
-            unit.getSprite().draw(g, position.x, position.y, r.getWidth(),
-                r.getHeight());
+            unit.getSprite().draw(g, x, y, w, h);
         }
     }
     // end::render[]
@@ -49,4 +51,5 @@ public class BoardPanel {
         }
 
     }
+
 }

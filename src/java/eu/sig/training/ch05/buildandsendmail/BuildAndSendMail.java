@@ -1,4 +1,4 @@
-package eu.sig.training.ch05.buildandsendmail.v1;
+package eu.sig.training.ch05.buildandsendmail;
 
 public class BuildAndSendMail {
     // tag::buildAndSendMail[]

@@ -2,6 +2,8 @@ package eu.sig.training.ch04;
 
 // tag::CheckingAccount[]
 public class CheckingAccount {
+    private static final float INTEREST_PERCENTAGE = 0.01f;
+    private Money balance = new Money();
     private int transferLimit = 100;
 
     public Transfer makeTransfer(String counterAccount, Money amount)
@@ -24,6 +26,15 @@ public class CheckingAccount {
             return result;
         } else {
             throw new BusinessException("Invalid account number!");
+        }
+    }
+
+    public void addInterest() {
+        Money interest = balance.multiply(INTEREST_PERCENTAGE);
+        if (interest.greaterThan(0)) {
+            balance.add(interest);
+        } else {
+            balance.substract(interest);
         }
     }
 }
